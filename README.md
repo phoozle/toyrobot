@@ -1,6 +1,12 @@
-<strong>Toy Robot Simulator challenge</strong>
+# Toy Robot Simulator challenge
 
-Description:
+## Usage:
+`./toyrobot`
+
+## Tests
+`bundle exec rspec`
+
+## Description:
 <ul>
 	<li>The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units</li>
 	<li>There are no other obstructions on the table surface</li>
