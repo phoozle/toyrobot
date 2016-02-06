@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require './lib/toy_robot'
+
+begin
+  toy_robot = ToyRobot.new(table: {x_size: 5, y_size: 5})
+  toy_robot.run
+rescue SignalException => e
+  puts
+  exit(0)
+end
